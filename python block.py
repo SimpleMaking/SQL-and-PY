@@ -10,7 +10,5 @@ def square(square_side):
 #3 task
 def bank(a, years):
     return [a := sum([a, a * 0.1]) for year in range(years)][-1]
-
-print(bank(100, 1))
     
     
